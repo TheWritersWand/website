@@ -17,7 +17,7 @@ function goThroughWritingPromptsRight() {
 		console.log(promptNumber);
 		console.log(promptTracker.src);
 		if ((parseInt(promptNumber)) > -1 && (parseInt(promptNumber)) < 30) {
-			promptTracker.src = "file:///C:/Users/User/Downloads/twwPrototype/prompt" + String(parseInt(promptNumber)+1) + ".png";
+			promptTracker.src = "https://github.com/TheWritersWand/website/blob/cfa43cde9deed3e413d6b7bfe63bc4130e4401c2/prompt" + String(parseInt(promptNumber)+1) + ".png";
 			promptTracker.alt = "prompt" + String(parseInt(promptNumber)+1);
 			//change the date 
 			date.innerHTML = dateList[parseInt(promptNumber)];
@@ -51,7 +51,7 @@ function goThroughWritingPromptsRight() {
 		}
 		console.log(promptNumber);
 		if (parseInt(promptNumber) < 31 && parseInt(promptNumber) > 1) {
-			promptTracker.src = "file:///C:/Users/User/Downloads/twwPrototype/prompt" + String(parseInt(promptNumber)-1) + ".png";
+			promptTracker.src = "https://github.com/TheWritersWand/website/blob/cfa43cde9deed3e413d6b7bfe63bc4130e4401c2/prompt" + String(parseInt(promptNumber)-1) + ".png";
 			promptTracker.alt = "prompt" + String(parseInt(promptNumber)-1);
 			date.innerHTML = dateList[parseInt(promptNumber)-2];
 			console.log(date);
